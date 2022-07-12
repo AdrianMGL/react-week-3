@@ -1,0 +1,91 @@
+.App input {
+  padding: 0.65rem 1rem;
+  margin: 0 1rem;
+  border: 1px solid transparent;
+  border-radius: 2rem;
+}
+
+.dates__pokemon {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-inline: auto;
+  position: absolute;
+}
+
+.date__basic {
+  font-size: 1.1rem;
+  display: flex;
+  gap: 7rem;
+}
+
+.date__basic h5 {
+  text-transform: capitalize;
+}
+
+.wrapper__pokemon {
+  border-left: 5px solid rgba(102, 205, 171, 0.5);
+  width: 16rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0.85rem;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.wrapper__pokemon:hover {
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+  border-left: 5px solid rgba(102, 205, 171, 1);
+  background-color: rgb(250, 250, 250);
+}
+
+.wrapper__pokemon img {
+  width: 100%;
+}
+
+.date__pokemon-info h2 {
+  text-transform: capitalize;
+}
+
+.date__pokemon-info h6 {
+  margin-top: 0.1rem;
+  text-align: left;
+}
+
+.pagination__container {
+  min-width: 100%;
+  padding: 0.25rem;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+}
+
+.pagination {
+  display: flex;
+  padding: 1rem;
+  font-size: 1rem;
+  justify-content: center;
+}
+
+.pagination li {
+  list-style: none;
+}
+
+.page-link {
+  background-color: rgba(102, 205, 171, 0.807);
+  color: white;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0.2rem;
+  padding: 0.45rem 0.6rem;
+  text-decoration: none;
+}
+
+.page-link:hover {
+  background-color: rgb(81, 191, 155);
+  box-shadow: 1px 1px 5px rgba(102, 205, 171, 0.75);
+}
